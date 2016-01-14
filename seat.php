@@ -162,7 +162,7 @@ function delete_seat($link)
 }
 
 
-$link=mysql_connect('127.0.0.1','root','nishiiilu');
+$link=mysql_connect('127.0.0.1','root','pppp');
 mysql_select_db('npg',$link);
 read_seat($link);
 if(isset($_POST['save_seat']))

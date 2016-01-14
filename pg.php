@@ -146,7 +146,7 @@ function fill_seat($link,$subloc_id,$catagory,$student_id)
 }	
 
 /////////////Start////////////////
-$link=mysql_connect('127.0.0.1','root','nishiiilu');
+$link=mysql_connect('127.0.0.1','root','xxxx');
 mysql_select_db('npg',$link);
 
 if(look_for_tie($link)===false){exit(0);}

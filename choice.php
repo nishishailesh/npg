@@ -226,7 +226,7 @@ function print_seat($link)
 	echo '</table></form>';
 }
 
-$link=mysql_connect('127.0.0.1','root','nishiiilu');
+$link=mysql_connect('127.0.0.1','root','pppp');
 mysql_select_db('npg',$link);
 
 $student_id=1;
